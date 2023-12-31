@@ -1,0 +1,245 @@
+header{width: 100%;
+        display: inline;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-between;
+        }
+
+
+.section-contato{background-color: aqua;
+          width: 100%;
+          height: auto;
+        flex-direction:row;}
+          
+      
+        
+       
+
+ .contato {display: inline-table;
+                flex-direction: row;
+                height: auto;
+                 padding-left: 20%; }
+            
+       
+  
+
+  .contato-I{display: inline-table;
+                flex-direction: row;
+                   height: auto;
+                padding-left: 12%;
+                }
+
+
+
+
+             
+
+
+.nome-loja{background-color: cadetblue;
+                 
+               .h1-nome-loja{font-size: 32px;
+                             word-wrap: break-word;
+                             margin: auto;
+                             text-align: center;}
+
+             >p{font-size: 24px;
+                 word-break: break-all;
+                  text-indent: 15px;}}
+
+
+ 
+             
+  
+  
+  .section-cliente{background-color: darkslategray;
+                   width: 100%;
+                    display: flex;
+                   flex-direction:row;
+                   justify-content: space-between;
+
+
+    >button{background-color: brown;
+            padding: 15px 30px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            }
+
+           >#btn-I{margin-left: 40px;}}
+
+
+             
+            
+      .car-cliente{background-color: chartreuse;
+                   padding: 15px 30px;
+                    margin-bottom: 5px;
+                    margin-top: 5px;
+                    border-radius: 10px;
+                    cursor: pointer;}   
+
+
+
+
+@media (min-width:481px) and (max-width:768px){
+
+
+        .section-contato{background-color: coral;
+                         width: 100%;
+                         display: flex;
+                          flex-direction: row;
+                          justify-content:flex-end;}
+
+
+     .nome-loja{background-color: cadetblue;
+                width: 100%;
+                 
+               .h1-nome-loja{font-size: 32px;
+                             word-wrap: break-word;
+                             margin: auto;
+                             text-align: center;}
+
+             >p{font-size: 24px;
+                 word-break: break-all;
+                  text-indent: 50px;}}
+
+       
+    }
+
+    @media (min-width:769px) and (max-width:1024px){
+
+
+      .section-contato{background-color:greenyellow;
+                         width: 100%;
+                         display: flex;
+                          flex-direction: row;
+                          justify-content:space-around;}
+
+
+
+.nome-loja{background-color: cadetblue;
+                width: 100%;
+                 
+               .h1-nome-loja{font-size: 32px;
+                             word-wrap: break-word;
+                             margin: auto;
+                             text-align: center;}
+
+             >p{font-size: 24px;
+                 word-break: break-all;
+                  text-indent: 50px;}}
+
+
+.section-cliente{background-color: darkslategray;
+                   width: 100%;
+                    display: flex;
+                   flex-direction:row;
+                   justify-content: space-between;
+
+
+    >button{background-color:burlywood;
+            padding: 15px 30px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            }
+
+           >#btn-I{margin-left: 40px;}}
+
+
+             
+            
+      .car-cliente{background-color: rgb(76, 0, 255);
+                   padding: 15px 30px;
+                    margin-bottom: 5px;
+                    margin-top: 5px;
+                    border-radius: 10px;
+                    cursor: pointer;}  
+
+    }
+
+
+
+
+ 
+         
+      /* header{width: 100%;
+        display: inline;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-between;
+        }
+
+
+.section-contato{background-color: aqua;
+          width: 100%;
+          height: auto;
+        flex-direction:row;}
+          
+      
+        
+       
+
+ .contato {display: inline-table;
+                flex-direction: row;
+                height: auto;
+                 padding-left: 20%; }
+            
+       
+  
+
+  .contato-I{display: inline-table;
+                flex-direction: row;
+                   height: auto;
+                padding-left: 12%;
+                }
+
+
+
+
+             
+
+
+.nome-loja{background-color: cadetblue;
+                 
+               .h1-nome-loja{font-size: 32px;
+                             word-wrap: break-word;
+                             margin: auto;
+                             text-align: center;}
+
+             >p{font-size: 24px;
+                 word-break: break-all;
+                  text-indent: 15px;}}
+
+
+ 
+             
+  
+  
+  .section-cliente{background-color: darkslategray;
+                   width: 100%;
+                    display: flex;
+                   flex-direction:row;
+                   justify-content: space-between;
+
+
+    >button{background-color: brown;
+            padding: 15px 30px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            }
+
+           >#btn-I{margin-left: 40px;}}
+
+
+             
+            
+      .car-cliente{background-color: chartreuse;
+                   padding: 15px 30px;
+                    margin-bottom: 5px;
+                    margin-top: 5px;
+                    border-radius: 10px;
+                    cursor: pointer;}   */
