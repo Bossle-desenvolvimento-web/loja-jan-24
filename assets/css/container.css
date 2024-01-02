@@ -1,3 +1,5 @@
+
+
 .container{display: flex;
            flex-direction: column;
            max-width: 1400px;
@@ -6,7 +8,8 @@
           overflow-x: hidden;
          box-sizing: border-box;
         border: solid 3px;
-       border-radius: 15px;}
+       border-radius: 15px;
+      }
          
 
 
@@ -17,8 +20,7 @@
                 flex-direction:column;
                 flex-wrap: wrap;
                 justify-content: space-between;
-            
-    
+             
   }
 }
 
@@ -30,6 +32,7 @@
                 flex-direction:column;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                 
             
     
   }
@@ -43,7 +46,19 @@
 
   .container { display: flex;
        flex-direction:row;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
+   
+    
+  }
+}
+
+@media (min-width:1025px) and (max-width:1401px) {
+  /* regras CSS para telas de 769px a 1024px */
+
+
+  .container { display: flex;
+       flex-direction:row;
+        flex-wrap: wrap;
    
     
   }
