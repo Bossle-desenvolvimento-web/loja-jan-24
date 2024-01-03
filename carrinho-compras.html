@@ -1,41 +1,120 @@
-<header>
-    <h1>Jan Bossle </h1>
-    <nav>
-      <a href="#">Home</a>
-      
-    </nav>
-  </header>
-
-  <main>
-    <section id="carrinho">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/carrinho-compras.css">
+    <title>carrinho de compras</title>
+</head>
+<body>
+    <header>
+      <span>Carrinho de compras do <b>Jan Bossle store</b></span>
+    </header>
+    <main>
+      <div class="page-title">Seu Carrinho</div>
       <div class="container">
-          <h2>Carrinho de compras</h2>
-          <table>
-            <thead>
-              <tr>
-                <th>Produto</th>
-                <th>Quantidade</th>
-                <th>Preço</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Vela</td>
-                <td>1</td>
-                <td>R$ 152.23</td>
-              </tr>
-              <tr>
-                <td>Aromatizante</td>
-                <td>2</td>
-                <td>R$ 145.58</td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="total">
-            <p>Total: R$ 125.00</p>
+          <div class="content">
+            <section>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                    <th>Total</th>
+                    <th>-</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="product">
+                        <img src="https://picsum.photos/100/120" alt="" />
+                        <div class="info">
+                          <div class="name">Vela decorativa</div>
+                          <div class="category">Categoria</div>
+                        </div>
+                      </div>
+                    </td>
+                    <td>R$ 120</td>
+                    <td>
+                      <div class="qty">
+                        <button><i class="bx bx-minus"></i></button>
+                        <span>2</span>
+                        <button><i class="bx bx-plus"></i></button>
+                      </div>
+                    </td>
+                    <td>R$ 240</td>
+                    <td>
+                      <button class="remove"><i class="bx bx-x"></i></button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="product">
+                        <img src="https://picsum.photos/100/120" alt="" />
+                        <div class="info">
+                          <div class="name">Aroamtizante de ambiente</div>
+                          <div class="category">Categoria</div>
+                        </div>
+                      </div>
+                    </td>
+                    <td>R$ 120</td>
+                    <td>
+                      <div class="qty">
+                        <button><i class="bx bx-minus"></i></button>
+                        <span>2</span>
+                        <button><i class="bx bx-plus"></i></button>
+                      </div>
+                    </td>
+                    <td>R$ 240</td>
+                    <td>
+                      <button class="remove"><i class="bx bx-x"></i></button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="product">
+                        <img src="" alt="" />
+                        <div class="info">
+                          <div class="name">Sabonete</div>
+                          <div class="category">Categoria</div>
+                        </div>
+                      </div>
+                    </td>
+                    <td>R$ 120</td>
+                    <td>
+                      <div class="qty">
+                        <button><i class="bx bx-minus"></i></button>
+                        <span>2</span>
+                        <button><i class="bx bx-plus"></i></button>
+                      </div>
+                    </td>
+                    <td>R$ 240</td>
+                    <td>
+                      <button class="remove"><i class="bx bx-x"></i></button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <aside>
+              <div class="box">
+                <h2>Resumo da compra</h2>
+                <div class="info">
+                  <div><span>Total</span><span>R$ 418</span></div>
+                  
+                </div>
+                <footer class="finalizar-compras">
+                  <span>Total</span>
+                  <span>R$ 418</span>
+                </footer>
+              </div>
+              <button class="btn-finalizar">Finalizar Compra</button>
+                <button class="btn-finalizar">Escolher outro produto</button>
+            </aside>
           </div>
       </div>
-    </section>
-<footer>
- footer
-</footer>
+    </main>
+</body>
+</html>

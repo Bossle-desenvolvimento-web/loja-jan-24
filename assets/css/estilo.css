@@ -3,4 +3,7 @@
 @import url("header.css");
 @import url("index.css");
 @import url("footer.css");
-@import url("pag-produto.css")
+@import url("pag-produto.css");
+@import url("carrinho-compras.css");
+@import url("cadastrar-cliente.css");
+@import url("formas-pgto.css");

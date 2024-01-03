@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/formas-pgto.css">
+    <title>Formas de pagamento</title>
+</head>
+<body>
+    <header>
+        <h1>Formas de pagamento</h1>
+    </header>
+    <main>
+        <section class="cartao-credito">
+            <h2>Cartão de crédito</h2>
+            <p>
+                Aceitamos as principais bandeiras de cartão de crédito: Visa, Mastercard, American Express e Elo.
+            </p>
+            <form action="finalizar-compra.php" method="post">
+                <input type="text" name="numero_cartao" placeholder="Número do cartão">
+                <input type="text" name="nome_titular" placeholder="Nome do titular">
+                <input type="text" name="validade" placeholder="Validade">
+                <input type="text" name="cvv" placeholder="CVV">
+                <button type="submit">Finalizar compra</button>
+            </form>
+        </section>
+        <section class="pix">
+            <h2>PIX</h2>
+            <p>
+                Você pode pagar com PIX usando o código QR ou copiando e colando o código de pagamento.
+            </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/QR_code_icon.svg/1200px-QR_code_icon.svg.png" alt="Código QR">
+            <p>
+                <strong>Para pagar com código QR</strong>, abra o aplicativo de seu banco e escaneie o código QR.
+            </p>
+            <p>
+                <strong>Para pagar copiando e colando</strong>, copie o código de pagamento e cole no aplicativo de seu banco.
+            </p>
+        </section>
+        <section class="boleto">
+            <h2>Boleto</h2>
+            <p>
+                Você pode imprimir o boleto ou pagar por leitura de código de barras.
+            </p>
+            <a href="boleto.pdf" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Barcode_icon.svg/1200px-Barcode_icon.svg.png" alt="Código de barras">
+                <p>
+                    <strong>Para imprimir o boleto</strong>, clique no link e imprima o arquivo PDF.
+                </p>
+            </a>
+            <p>
+                <strong>Para pagar por leitura de código de barras</strong>, abra o aplicativo de seu banco e escaneie o código de barras do boleto.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <a href="#">Política de privacidade</a>
+        <a href="#">Política de reembolso</a>
+    </footer>
+</body>
+</html>

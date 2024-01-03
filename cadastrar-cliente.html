@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="assets/css/cadastrar-cliente.css">
+    <title>Cadastro de cliente</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de cliente</h1>
+        <a href="#">Voltar para a página inicial</a>
+    </header>
+    <main>
+        <form action="finalizar-compra.php" method="post">
+            <input type="text" name="nome" placeholder="Nome completo">
+            <input type="email" name="email" placeholder="Endereço de e-mail">
+            <input type="email" name="confirmar_email" placeholder="Confirme seu e-mail" required>
+
+            <p class="erro">Os e-mails não correspondem</p>
+
+            <input type="tel" name="telefone" placeholder="Número de telefone">
+            <input type="text" name="endereco" placeholder="Endereço de entrega">
+            <input type="text" name="cep" placeholder="CEP">
+            <input type="text" name="cidade" placeholder="Cidade">
+            <input type="text" name="estado" placeholder="Estado">
+            <input type="text" name="pais" placeholder="País">
+             <select name="metodo_envio">
+            <option value="email">Enviar por e-mail</option>
+            <option value="sms">Enviar por SMS</option>
+            </select>
+
+            <button type="submit">Enviar código de confirmação</button>
+
+            <p class="erro">Código de confirmação inválido</p>
+                        <input type="text" name="codigo_confirmacao" placeholder="Código de confirmação">
+                
+
+            <button>Finalizar sua compra</button>
+
+        </form>
+       
+    </main>
+    <footer>
+        <a href="#">Política de privacidade</a>
+        <a href="#">Política de reembolso</a>
+    </footer>
+      <script>
+          function enviarCodigoConfirmacao() {
+            const metodoEnvio = document.querySelector("select[name='metodo_envio']").value;
+            const codigoConfirmacao = Math.floor(Math.random() * 100000);
+          
+            if (metodoEnvio === "email") {
+              enviarEmail(codigoConfirmacao);
+            } else if (metodoEnvio === "sms") {
+              enviarSMS(codigoConfirmacao);
+            }
+          }
+          
+          document.querySelector("button[type='submit']").addEventListener("click", enviarCodigoConfirmacao);
+      </script>
+
+</body>
+</html>

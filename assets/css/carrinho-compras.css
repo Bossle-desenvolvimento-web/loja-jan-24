@@ -1,0 +1,88 @@
+/* Estilos básicos */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.page-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.finalizar-compras {
+  text-align: right;
+}
+
+button {
+  background-color: #f3f3f3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: solid 1px #000;
+}
+
+.btn-finalizar{background-color: red;}
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  /* Empilha os elementos do cabeçalho e do resumo de compra verticalmente */
+  header,
+  aside .box {
+    text-align: center;
+  }
+
+  aside .box {background-color: cadetblue;
+    margin-top: 20px;
+  }
+
+  /* Faz a tabela rolar horizontalmente em telas pequenas */
+  table {background-color: burlywood;
+    overflow-x: auto;
+  }
+
+  /* Reduz o tamanho da fonte e ajusta espaçamentos para telas pequenas */
+  body {
+    font-size: 14px;
+  }
+
+  .page-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .product img {
+    width: 80px;
+  }
+}
